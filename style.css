@@ -499,3 +499,70 @@ button#viewLowStock:hover {
 .fl-btn img{
     width: 12px
 }
+
+
+/*Add Food*/
+.addfood-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 75vh;
+}
+
+.addfood-form{
+    background-color: #ffffff;
+    height: 57vh;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+
+
+    padding-top: 0px;
+    border-radius: 30px;
+    border: 2px solid #805e00;
+    box-shadow: -7px 7px 0px #f4c84d;
+}
+
+h3{
+    padding: 0;
+    color: #805e00;
+}
+
+.addfood-label{
+    display: block;
+    margin-bottom: 5px;
+
+    color: #805e00;
+}
+
+.addfood-input{
+    display: block;
+
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 8px;
+    border: 2px solid #805e00;
+}
+
+.cancel-btn{
+    position: absolute;
+    width: 70px;
+    border-radius: 12px;
+    background-color: hsl(19, 24%, 65%);
+    color: white;
+
+    margin-top: 330px;
+    margin-right: 93px;
+}
+
+.save-btn{
+    position: absolute;
+    width: 70px;
+    border-radius: 12px;
+    margin-top: 330px;
+    margin-left: 80px;
+}

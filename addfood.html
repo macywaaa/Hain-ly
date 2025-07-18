@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lilita+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Hainly</title>
+    <style>
+        body{
+            font-family: 'Fredoka';
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="navbar">
+            <!-- LEFT: logo -->
+            <div class="left-nav">
+                <img src="login-elements/icon.png" alt="" class="icon-dash">
+                <img src="login-elements/Logo.png" alt="" class="logo-dash">
+            </div>
+
+            <!-- CENTER: menu -->
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="dashboard.html"><img src="login-elements/dashboard-icon.png" alt="">Dashboard</a></li>
+                    <li><a href="Foodlist.html"><img src="login-elements/foodlist-icon.png" alt="">Food List</a></li>
+                    <li><a href="#"  class="active"><img src="login-elements/additem-icon.png" alt="">Add Food</a></li>
+                </ul>
+            </nav>
+
+            <div class="right-nav">
+                <div class="user-container">
+                    <span class="username">User</span>
+                    <img src="login-elements/user-icon.png" alt="" class="user-icon">
+                </div>
+            </div>
+    </div>
+
+    <div class="addfood-card">
+        <div class="addfood-form">
+        <h3>Add New Food Item</h3>
+
+            <div>
+                <label for="" class="addfood-label">Food Name:</label>
+                <input type="text" class="addfood-input">
+            </div>
+
+            <div>
+                <label for="" class="addfood-label">Quantity:</label>
+                <input type="number" class="addfood-input">
+            </div>
+
+            <div>
+                <label for="" class="addfood-label">Category:</label>
+                <input type="text" class="addfood-input">
+            </div>
+
+            <div>
+                <label for="" class="addfood-label">Expiry</label>
+                <input type="date" class="addfood-input">
+            </div>
+
+            <button class="cancel-btn">Cancel</button>
+            <button class="save-btn">Save</button>
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+</html>
