@@ -74,13 +74,3 @@ Next steps on our cozy coding journey:
 - **Local Storage**: So your inventory stays safe even after you close the browser — like a secret recipe book tucked on your shelf! 📦💾
 
 This ensures a smooth and steady growth — just like a well-watered plant 🌿
-
----
-
-## 🧑‍💻 How to Explore (Locally)
-
-To peek into Hain-ly’s cozy cabin:
-
-1. **Clone the repository**  
-```bash
-git clone [Your Repository URL Here]
