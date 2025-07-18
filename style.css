@@ -496,6 +496,18 @@ button#viewLowStock:hover {
     margin-left: 260px;
 
 }
+
+.fl-btn#trash-btn:hover{
+
+    background-color: #df1620;
+    cursor: pointer;
+}
+
+.fl-btn#edit-btn:hover{
+    background-color: #d98b41;
+    cursor: pointer; 
+}
+
 .fl-btn img{
     width: 12px
 }
@@ -565,4 +577,17 @@ h3{
     border-radius: 12px;
     margin-top: 330px;
     margin-left: 80px;
+}
+
+.cancel-btn:hover {
+  /* Add your hover styles here */
+  background-color: #c26368; /* Example: change background on hover */
+  color: #fff; /* Example: change text color on hover */
+  cursor: pointer; /* Example: change cursor to a pointer */
+}
+
+.save-btn:hover{
+    background-color: #d98b41; /* Example: change background on hover */
+    color: #fff; /* Example: change text color on hover */
+    cursor: pointer; /* Example: change cursor to a pointer */
 }
