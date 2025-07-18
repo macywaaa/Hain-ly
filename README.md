@@ -73,4 +73,4 @@ Next steps on our cozy coding journey:
 - **JavaScript**: For interactivity, real-time updates, and form handling  
 - **Local Storage**: So your inventory stays safe even after you close the browser — like a secret recipe book tucked on your shelf! 📦💾
 
-This ensures a smooth and steady growth — just like a well-watered plant 🌿
+This ensures a smooth and steady growth just like a well-watered plant 🌿
