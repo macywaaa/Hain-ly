@@ -1,0 +1,480 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fefaf0;
+}
+
+.my-form{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color: white;
+    padding: 35px;
+    border-radius: 25px;
+
+    box-shadow: -17px  17px 40px rgb(37, 35, 35);
+}
+
+#logo-login{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+}
+
+#your-cozy{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6b7280;
+    margin-top: 0
+
+}
+
+.labels{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: 500;
+    color: #6b7280;
+}
+
+.input-box{
+    display: block;
+    margin-bottom: 1rem;
+
+    font-size: 1rem; 
+    padding: 10px;
+    border-radius: 7px;
+    width: 200px;
+    border: 0.5px solid gray;
+}
+
+button{
+    margin-top: 25px;
+    display: block;
+
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #6b7280;
+    width: 225px;
+    border-radius: 15px;
+    background-color: #ffd869;
+    border: none;
+
+    box-shadow: 0px 4px 0px #8c756a;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #d492a1;
+    color: white;
+}
+
+#already{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #6b7280;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+/* Dashboard Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 75px;
+    background-color: #ffffff;
+    box-shadow: -17px 17px 40px rgb(223, 223, 223);
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+/* Left Section */
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-dash {
+    width: 40px;
+    height: auto;
+    padding: 7px;
+}
+
+.logo-dash {
+    width: 120px;
+    height: auto;
+    padding: 7px;
+}
+
+.nav-menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 150px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu ul li a {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    align-items: center;
+    gap: 4px; /* Space between icon and text */
+    text-decoration: none;
+    color: #8c756a;
+    font-weight: 600;
+    padding: 6px 18px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+    font-size: 13px;
+}
+
+/* Icon inside nav menu */
+.nav-menu ul li a img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+
+/* Hover effect (transparent box) */
+.nav-menu ul li a:hover {
+    background-color: #ffffff;
+    box-shadow: 5px 6px 10px rgb(179, 179, 179);
+}
+
+/* ACTIVE transparent box */
+.nav-menu ul li a.active {
+    background-color: #ffffff;
+    box-shadow: 5px 6px 10px rgb(214, 208, 208);
+}
+
+.user-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 7px;
+    font-weight: 600;
+    color: #8c756a;
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.user-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/*Expiring Soon Card*/
+
+.dash-title{
+    color: #8c756a;
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard-card {
+    background-color: #fff;
+    border: 2px solid #c4b5a8;
+    border-radius: 20px;
+    box-shadow: -10px 13px 0px #f4c84d;
+    padding: 1px;
+    width: 600px;
+    margin: 25px auto;
+    height: 25vh;
+    margin-bottom: 65px;
+}
+
+.dashboard-card h3 img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    margin: 0;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.dashboard-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #8c756a;
+  display: flex;
+}
+
+.food-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b9a67c;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 7px 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 auto 15px auto;
+    width: 500px;
+}
+
+.food-name,
+.food-date {
+  font-size: 16px;
+}
+
+button#viewExpiring {
+    width: 180px;
+    background-color: #ffd869;
+    color: #8c756a;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 0 auto 15px auto;
+    font-weight: 600;
+    box-shadow: 2px 3px #c9a747;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button#viewExpiring:hover {
+    color: #8c756a;
+    transform: translateY(-2px);
+    box-shadow: 3px 5px #c9a747;
+}
+
+
+button#viewLowStock {
+    width: 180px;
+    background-color: #ffd869;
+    color: #8c756a;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 0 auto 15px auto;
+    font-weight: 600;
+    box-shadow: 2px 3px #c9a747;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button#viewLowStock:hover {
+    color: #8c756a;
+    transform: translateY(-2px);
+    box-shadow: 3px 5px #c9a747;
+}
+
+
+/*Expiry dashboard View All*/
+
+.expiring-soon-dashboard-card {
+    background-color: #fff;
+    border: 2px solid #c4b5a8;
+    border-radius: 20px;
+    box-shadow: -10px 13px 0px #f4c84d;
+    padding: 1px;
+    width: 600px;
+    margin: 25px auto;
+    height: 60vh;
+    margin-bottom: 65px;
+    position: relative;
+}
+
+
+.expiring-soon-dashboard-card h3 img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    margin: 0;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.expiring-soon-dashboard-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #8c756a;
+  display: flex;
+}
+
+.expiring-soon-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c2b38b;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0px auto 0px auto;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 1px;
+}
+
+.expiring-soon-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff3d4;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 10px;
+    color: #8c756a;
+    font-weight: 600;
+    font-size: 13px;
+    margin: 10px auto 0 auto;
+    width: 500px;
+    text-align: center; /* add this */
+}
+
+.title{
+    padding: 0 20px;
+}
+
+.item-name,
+.item-expiry,
+.item-stock,
+.item-status {
+    flex: 1;
+    text-align: center;
+}
+
+.x-btn {
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 15px;
+
+    width: 40px;
+    background-color: #ef8080;
+    color: #ffffff;
+    border: none;
+    border-radius: 160px;
+    padding: 10px;
+
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: none;
+}
+
+.x-btn:hover {
+    background-color: #dd6e6e;
+}
+
+
+/*Food List*/
+
+.search-bar-card{
+    display: flex;
+    align-items: center;
+    
+
+    background-color: #feedaa;
+    width: 500px;
+    margin: 25px auto;
+
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+#foodlist-search-input{
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid #805e00;
+    border-radius: 7px;
+    color: #805e00;
+}
+
+#foodlist-search-input:focus{
+    outline: none;
+    border-color: #805e00;
+
+}
+
+::placeholder {
+  color: #c2b38b;
+  opacity: 1; /* Firefox */
+  font-family: 'Fredoka';
+  font-weight: 500;
+}
+
+.foodlist-dropdown{
+    padding: 5px;
+    border: 1px solid #805e00;
+    border-radius: 7px;
+    color: #c2b38b;
+    font-family: 'Fredoka';
+    font-weight: 500;
+}
+
+.search-label{
+    color: #805e00;
+    font-weight: 500;
+}
+
+.foodlist-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  column-gap: 80px;
+  row-gap: 20px;
+  /* Removed padding: 20px; */
+
+  /* These were the crucial additions for centering the overall container */
+  margin: 0 510px;
+}
+
+.foodlist-card-box {
+    background-color: #ffffff;
+    border: 2px solid #8c756a;
+    border-radius: 30px;
+    padding: 20px;
+    padding-bottom: 50px;
+
+    width: 100%; /* fills the column */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.fl-name {
+  color: #8c756a;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.fl-quantity,
+.fl-category,
+.fl-expiry {
+  font-weight: 500;
+  color: #8c756a;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lilita+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Hainly</title>
+    <style>
+        body{
+            font-family: 'Fredoka';
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="navbar">
+            <!-- LEFT: logo -->
+            <div class="left-nav">
+                <img src="login-elements/icon.png" alt="" class="icon-dash">
+                <img src="login-elements/Logo.png" alt="" class="logo-dash">
+            </div>
+
+            <!-- CENTER: menu -->
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#" class="active"><img src="login-elements/dashboard-icon.png" alt="">Dashboard</a></li>
+                    <li><a href="Foodlist.html"><img src="login-elements/foodlist-icon.png" alt="">Food List</a></li>
+                    <li><a href="#"><img src="login-elements/additem-icon.png" alt="">Add Food</a></li>
+                </ul>
+            </nav>
+
+            <div class="right-nav">
+                <div class="user-container">
+                    <span class="username">User</span>
+                    <img src="login-elements/user-icon.png" alt="" class="user-icon">
+                </div>
+            </div>
+    </div>
+
+    <h1 class="dash-title">Your Food Insights</h1>
+    <div class="expiring-soon-dashboard-card">
+        <button class="x-btn" onclick="location.href='dashboard.html'">X</button>
+        <h3 class="card-title"><img src="login-elements/foodlist-icon.png" alt="">Expiring Soon</h3>
+        <!--inside the card-->
+        <div class="expiring-soon-info">
+            <span class="title" id="t-name">Item Name</span>
+            <span class="title" id="t-exp">Exp Date</span>
+            <span class="title" id="t-qty">Qty</span>
+            <span class="title" id="t-status">Status</span>
+        </div>
+
+        <div class="expiring-soon-list">
+            <span class="item-name" id="001">Apple</span>
+            <span class="item-expiry" id="001">07/23/25</span>
+            <span class="item-stock" id="001">1</span>
+            <span class="item-status" id="001">Not Expiring Soon</span>
+        </div>
+
+         <div class="expiring-soon-list">
+            <span class="item-name" id="002">Banana</span>
+            <span class="item-expiry" id="002">07/23/25</span>
+            <span class="item-stock" id="002">2</span>
+            <span class="item-status" id="002">Not Expiring Soon</span>
+        </div>
+
+         <div class="expiring-soon-list">
+            <span class="item-name" id="003">Ketchup</span>
+            <span class="item-expiry" id="003">07/23/25</span>
+            <span class="item-stock" id="003">1</span>
+            <span class="item-status" id="003">Not Expiring Soon</span>
+        </div>
+
+         <div class="expiring-soon-list">
+            <span class="item-name" id="004">Royal Canin</span>
+            <span class="item-expiry" id="004">07/23/25</span>
+            <span class="item-stock" id="004">2</span>
+            <span class="item-status" id="004">Not Expiring Soon</span>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lilita+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Hainly</title>
+    <style>
+        body{
+            font-family: 'Fredoka';
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="navbar">
+            <!-- LEFT: logo -->
+            <div class="left-nav">
+                <img src="login-elements/icon.png" alt="" class="icon-dash">
+                <img src="login-elements/Logo.png" alt="" class="logo-dash">
+            </div>
+
+            <!-- CENTER: menu -->
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#" class="active"><img src="login-elements/dashboard-icon.png" alt="">Dashboard</a></li>
+                    <li><a href="Foodlist.html"><img src="login-elements/foodlist-icon.png" alt="">Food List</a></li>
+                    <li><a href="#"><img src="login-elements/additem-icon.png" alt="">Add Food</a></li>
+                </ul>
+            </nav>
+
+            <div class="right-nav">
+                <div class="user-container">
+                    <span class="username">User</span>
+                    <img src="login-elements/user-icon.png" alt="" class="user-icon">
+                </div>
+            </div>
+    </div>
+
+    <h1 class="dash-title">Your Food Insights</h1>
+    <div class="dashboard-card">
+        <h3 class="card-title"><img src="login-elements/foodlist-icon.png" alt="">Expiring Soon</h3>
+        <div class="food-info">
+            <span class="food-name" id="expiringName">Apple</span>
+            <span class="food-date" id="expiringDate">7/05/25</span>
+        </div>
+
+        <button class="view-btn" id="viewExpiring" onclick="location.href='expirydashboard.html'">View All</button>
+
+    </div>
+
+    <div class="dashboard-card">
+        <h3 class="card-title"><img src="login-elements/foodlist-icon.png" alt="">Low Stock Items</h3>
+        <div class="food-info">
+            <span class="food-name" id="expiringName">Apple</span>
+            <span class="food-stock" id="foodStock">1</span>
+        </div>
+
+        <button class="view-btn" id="viewLowStock" onclick="location.href='lowstockdashboard.html'">View All</button>
+
+    </div>
+</div>
+
+</body>
+</html>

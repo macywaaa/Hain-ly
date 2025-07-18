@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lilita+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Hainly</title>
+    <style>
+        body{
+            font-family: 'Fredoka';
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="navbar">
+            <!-- LEFT: logo -->
+            <div class="left-nav">
+                <img src="login-elements/icon.png" alt="" class="icon-dash">
+                <img src="login-elements/Logo.png" alt="" class="logo-dash">
+            </div>
+
+            <!-- CENTER: menu -->
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="dashboard.html"><img src="login-elements/dashboard-icon.png" alt="">Dashboard</a></li>
+                    <li><a href="#"  class="active"><img src="login-elements/foodlist-icon.png" alt="">Food List</a></li>
+                    <li><a href="#"><img src="login-elements/additem-icon.png" alt="">Add Food</a></li>
+                </ul>
+            </nav>
+
+            <div class="right-nav">
+                <div class="user-container">
+                    <span class="username"><a href="login.html"></a>User</span>
+                    <img src="login-elements/user-icon.png" alt="" class="user-icon">
+                </div>
+            </div>
+    </div>
+
+    <div class="search-bar-card">
+        <input type="text" placeholder="Search.." id="foodlist-search-input">
+
+        <label for="sort" class="search-label">Sort by:</label>
+        <select name="Sort by.." id="sort" class="foodlist-dropdown">
+            <option value="Ascending">Quantity</option>
+            <option value="Descending">Category</option>
+            <option value="Ascending">Expiry</option>
+        </select>
+
+        <select name="Way" id="sort-way" class="foodlist-dropdown">
+            <option value="Ascending">Ascending</option>
+            <option value="Descending">Descending</option>
+        </select>
+    </div>
+
+    <div class="foodlist-card-container">
+        <div class="foodlist-card-box">
+            <span class="fl-name" id="001">Apple</span>
+            <span class="fl-quantity" id="001">Qty: 1</span>
+            <span class="fl-category" id="001">Category: Fruits</span>
+            <span class="fl-expiry">Expires: 07/23/25</span>
+
+        </div>
+
+        <div class="foodlist-card-box">
+            <span class="fl-name" id="002">Banana</span>
+            <span class="fl-quantity" id="002">Qty: 2</span>
+            <span class="fl-category" id="002">Category: Fruits</span>
+            <span class="fl-expiry">Expires: 07/23/25</span>
+        </div>
+
+        <div class="foodlist-card-box">
+            <span class="fl-name" id="003">Ketchup</span>
+            <span class="fl-quantity" id="003">Qty: 1</span>
+            <span class="fl-category" id="003">Category: Sauce</span>
+            <span class="fl-expiry" id="003">Expires: 07/23/25</span>
+        </div>
+
+        <div class="foodlist-card-box">
+            <span class="fl-name" id="004">Royal Canin</span>
+            <span class="fl-quantity" id="004">Qty: 2</span>
+            <span class="fl-category" id="004">Category: Cat Food</span>
+            <span class="fl-expiry" id="004">Expires: 07/23/25</span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
