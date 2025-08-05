@@ -26,7 +26,7 @@
                 <ul>
                     <li><a href="#" class="active"><img src="login-elements/dashboard-icon.png" alt="">Dashboard</a></li>
                     <li><a href="Foodlist.html"><img src="login-elements/foodlist-icon.png" alt="">Food List</a></li>
-                    <li><a href="#"><img src="login-elements/additem-icon.png" alt="">Add Food</a></li>
+                    <li><a href="addfood.html"><img src="login-elements/additem-icon.png" alt="">Add Food</a></li>
                 </ul>
             </nav>
 
@@ -38,27 +38,30 @@
             </div>
     </div>
 
-    <h1 class="dash-title">Your Food Insights</h1>
-    <div class="dashboard-card">
-        <h3 class="card-title"><img src="login-elements/foodlist-icon.png" alt="">Expiring Soon</h3>
-        <div class="food-info">
-            <span class="food-name" id="expiringName">Apple</span>
-            <span class="food-date" id="expiringDate">7/05/25</span>
+   
+    <div class="body-card">
+        <h1 class="dash-title">Your Food Insights</h1>
+        <div class="dashboard-card">
+            <h3 class="card-title"><img src="login-elements/foodlist-icon.png" alt="">Expiring Soon</h3>
+            <div class="food-info">
+                <span class="food-name" id="expiringName">Apple</span>
+                <span class="food-date" id="expiringDate">7/05/25</span>
+            </div>
+
+            <button class="view-btn" id="viewExpiring" onclick="location.href='expirydashboard.html'">View All</button>
+
         </div>
 
-        <button class="view-btn" id="viewExpiring" onclick="location.href='expirydashboard.html'">View All</button>
+        <div class="dashboard-card">
+            <h3 class="card-title"><img src="login-elements/foodlist-icon.png" alt="">Low Stock Items</h3>
+            <div class="food-info">
+                <span class="food-name" id="expiringName">Apple</span>
+                <span class="food-stock" id="foodStock">1</span>
+            </div>
 
-    </div>
+            <button class="view-btn" id="viewLowStock" onclick="location.href='lowstockdashboard.html'">View All</button>
 
-    <div class="dashboard-card">
-        <h3 class="card-title"><img src="login-elements/foodlist-icon.png" alt="">Low Stock Items</h3>
-        <div class="food-info">
-            <span class="food-name" id="expiringName">Apple</span>
-            <span class="food-stock" id="foodStock">1</span>
         </div>
-
-        <button class="view-btn" id="viewLowStock" onclick="location.href='lowstockdashboard.html'">View All</button>
-
     </div>
 </div>
 
