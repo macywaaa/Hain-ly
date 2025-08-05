@@ -450,7 +450,7 @@ button#viewLowStock:hover {
   /* Removed padding: 20px; */
 
   /* These were the crucial additions for centering the overall container */
-  margin: 0 410px;
+  margin: 0 605px;
 }
 
 .foodlist-card-box {
@@ -524,7 +524,7 @@ button#viewLowStock:hover {
 
 .addfood-form{
     background-color: #ffffff;
-    height: 57vh;
+    height: 44vh;
     width: 250px;
     display: flex;
     flex-direction: column;
